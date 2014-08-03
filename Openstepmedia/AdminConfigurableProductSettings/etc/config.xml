@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Openstepmedia_AdminConfigurableProductSettings>
+            <version>0.1</version>
+        </Openstepmedia_AdminConfigurableProductSettings>
+    </modules>
+    <global>
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <catalog_product_edit_tab_super_settings>Openstepmedia_AdminConfigurableProductSettings_Adminhtml_Block_Catalog_Product_Edit_Tab_Super_Settings</catalog_product_edit_tab_super_settings>
+                </rewrite>
+            </adminhtml>
+        </blocks>
+    </global>
+</config>
